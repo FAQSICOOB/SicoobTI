@@ -1,17 +1,4 @@
 
-<!--
-  ============================================================
-  FAQ Sicoob — Pronto para SharePoint
-  ============================================================
-  COMO USAR NO SHAREPOINT:
-  Opção A (Clássico): Editar página → Inserir → "Script Editor Web Part"
-                       → colar o conteúdo entre <body>...</body>
-  Opção B (Moderno):  Usar Web Part "Incorporar" ou "HTML"
-                       → colar o HTML completo
-  Opção C (SPFX):     Criar extensão ApplicationCustomizer ou
-                       WebPart e renderizar este HTML no render()
-  ============================================================
--->
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8" />
