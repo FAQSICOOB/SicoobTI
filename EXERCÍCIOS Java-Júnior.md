@@ -1,4 +1,4 @@
-# Estrutura Sequencial
+# Exercícios Java-Júnior
 
 - Faça um programa que mostre a mensagem "Alô mundo" na tela.
 
@@ -75,7 +75,36 @@ public static void main(String[] args) {
 - Faça um programa que receba 4 notas bimestrais e mostre a média aritmética.
 
 ```java
-TODO
+public class MediaBimestral {
+    
+    public static void main(String[] args) {
+        
+        Scanner scanner = new Scanner(System.in);
+        
+        System.out.println("=== Cálculo de Média Bimestral ===\n");
+        
+        System.out.print("Digite a 1ª nota: ");
+        double nota1 = scanner.nextDouble();
+        
+        System.out.print("Digite a 2ª nota: ");
+        double nota2 = scanner.nextDouble();
+        
+        System.out.print("Digite a 3ª nota: ");
+        double nota3 = scanner.nextDouble();
+        
+        System.out.print("Digite a 4ª nota: ");
+        double nota4 = scanner.nextDouble();
+        
+        // Cálculo da média
+        double media = (nota1 + nota2 + nota3 + nota4) / 4;
+        
+        System.out.println("\n=================================");
+        System.out.printf("A média aritmética é: %.2f%n", media);
+        System.out.println("=================================");
+        
+        scanner.close();
+    }
+}
 ```
 
 * * *
