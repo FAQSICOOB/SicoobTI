@@ -180,9 +180,35 @@ public static void main(String[] args) {
 - Faça um programa que peça a temperatura em graus Fahrenheit, transforme e
 mostre a temperatura em graus Celsius.
 
+**Resolução:**
+
+<details>
+  <summary>Spoiler warning</summary>
+  
 ```java
-TODO
+public class ConversorTemperatura {
+    
+    public static void main(String[] args) {
+        
+        Scanner scanner = new Scanner(System.in);
+        
+        System.out.println("=== Conversor de Fahrenheit para Celsius ===\n");
+        
+        System.out.print("Digite a temperatura em graus Fahrenheit (°F): ");
+        double fahrenheit = scanner.nextDouble();
+        
+        // Fórmula de conversão: C = (F - 32) * 5 / 9
+        double celsius = (fahrenheit - 32) * 5.0 / 9.0;
+        
+        System.out.println("\n=================================");
+        System.out.printf("%.2f °F = %.2f °C%n", fahrenheit, celsius);
+        System.out.println("=================================");
+        
+        scanner.close();
+    }
+}
 ```
+</details>
 
 * * *
 
