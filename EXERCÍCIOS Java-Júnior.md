@@ -74,6 +74,11 @@ public static void main(String[] args) {
 
 - Faça um programa que receba 4 notas bimestrais e mostre a média aritmética.
 
+**Resolução:**
+
+<details>
+  <summary>Spoiler warning</summary>
+
 ```java
 public class MediaBimestral {
     
