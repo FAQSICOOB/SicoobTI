@@ -111,14 +111,41 @@ public class MediaBimestral {
     }
 }
 ```
+</details>
 
 * * *
 
 - Faça um programa que converta metros para centímetros.
 
+**Resolução:**
+
+<details>
+  <summary>Spoiler warning</summary>
+  
 ```java
-TODO
+public class ConversorMetrosCentimetros {
+    
+    public static void main(String[] args) {
+        
+        Scanner scanner = new Scanner(System.in);
+        
+        System.out.println("=== Conversor de Metros para Centímetros ===\n");
+        
+        System.out.print("Digite a quantidade de metros: ");
+        double metros = scanner.nextDouble();
+        
+        // Conversão
+        double centimetros = metros * 100;
+        
+        System.out.println("\n=================================");
+        System.out.printf("%.2f metro(s) = %.2f centímetro(s)%n", metros, centimetros);
+        System.out.println("=================================");
+        
+        scanner.close();
+    }
+}
 ```
+</details>
 
 * * *
 
